@@ -6,11 +6,17 @@
     <meta name="description" content="A simple passenger counter app created as a part of scrimbas ">
     <meta name="author" content="Braedan Royer">
     <meta name="keywords" content="HTML, CSS, Javascript">
+    <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <h1>Zombies Counted</h1>
-    <h2 id="count-el">0</h2>
-    <button id="increment-btn">INCREMENT</button>
+    <div class="hero-div">
+      <h1 class="title">Zombies Counted</h1>
+      <h2 id="count-el">0</h2>
+      <button class="btn increment-btn" id="increment-btn">INCREMENT</button>
+      <button class='btn save-btn' id="save-btn">SAVE</button>
+      <p id="prev-count-p">Prev Count: </p>
+      <p id="total-count-p">Total Count: 0</p>
+    </div>
   </body>
 </html>
