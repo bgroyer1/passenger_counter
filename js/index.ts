@@ -8,7 +8,7 @@ const totalCountPara = getElement<HTMLParagraphElement>("#total-count-p");
 
 function getElement<T extends Element>(selector: string): T {
   const el = document.querySelector<T>(selector);
-  if (!el) throw new Error(`Element not found: ${selector}`)
+  if (!el) throw new Error(`element not found: ${selector}`)
   return el;
 }
 
